@@ -17,14 +17,14 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+title: "Holistic Mama Living"
+description: "A peaceful space for mindful motherhood, holistic wellness, and intentional living."
+baseurl: ""
+url: "https://rebecca-ro.github.io/holisticmamaliving"
+logo: "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: "true"
+words_per_minute: 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
@@ -50,12 +50,12 @@ markdown: kramdown
 feed:
   path: atom.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+# Pagination
+paginate: 6
+paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: false
 
 # Taxonomy pages
 # category_archive_path: "/categories/#"
@@ -90,15 +90,41 @@ defaults:
       share: true
 
 # Site Author
-author:
-  name:
-  picture:
-  email:
-  twitter:
+name: Rebecca
+  email: rebecca.ro2001@gmail.com
+  picture: /assets/images/rebecca.jpg
+  bio: Holistic mama, herbal tea lover, embracing wellness, nature, and intentional living.
+  location: North Carolina
   links:
-    - title:
-      url:
-      icon:
+    - title: Pinterest
+      url: https://pinterest.com/holisticmamaliving
+      icon: fab fa-pinterest
+
+# Navigation links (visible in menu)
+navigation:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+  - title: Natural Parenting
+    url: /natural-parenting/
+  - title: Clean Living
+    url: /clean-living/
+  - title: Holistic Nutrition
+    url: /holistic-nutrition/
+  - title: Mindful Motherhood
+    url: /mindful-motherhood/
+  - title: Natural Remedies
+    url: /natural-remedies/
+  - title: Sustainable Living
+    url: /sustainable-living/
+  - title: Homeschooling & Rhythms
+    url: /homeschooling/
+  - title: Birth & Postpartum
+    url: /birth-postpartum/
+
 
 # Footer Links
 footer_links:
