@@ -1,44 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Holistic Mama Living"
-description: "A peaceful space for mindful motherhood, holistic wellness, and intentional living."
-baseurl: ""
-url: "https://rebecca-ro.github.io/holisticmamaliving"
-logo: "/assets/images/logo.png"
+description: "A cozy space for mindful mamas embracing natural parenting, holistic wellness, and sustainable living."
+baseurl: "" # leave empty unless you're using a subpath
+url: "https://yourusername.github.io" # replace with your GitHub username if needed
+logo: "/assets/images/logo.png" # optional, update when you add a logo
 date_format: "%B %-d, %Y"
-read_time: "true"
+read_time: true
 words_per_minute: 200
-mathjax:
-  enable: # MathJax equations, e.g. true, false (default)
-  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  # "none", "ams" (default), "all"
+
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+
+google_analytics: # optional
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # optional
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: holisticmamalife # optional
 
 # Liquid
 liquid:
@@ -57,21 +39,9 @@ paginate_path: /page:num/
 # Search
 search_full_content: false
 
-# Taxonomy pages
+# Category and tag archive paths (can be enabled later if needed)
 # category_archive_path: "/categories/#"
 # tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 plugins:
   - jekyll-seo-tag
@@ -79,9 +49,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# Front Matter Defaults
 defaults:
-  # Posts defaults
   - scope:
       path: "_posts"
       type: posts
@@ -89,13 +57,17 @@ defaults:
       layout: post
       share: true
 
-# Site Author
-name: Rebecca
-  email: rebecca.ro2001@gmail.com
-  picture: /assets/images/rebecca.jpg
-  bio: Holistic mama, herbal tea lover, embracing wellness, nature, and intentional living.
+author:
+  name: Rebecca
+  email: your@email.com
+  picture: /assets/images/rebecca.jpg # optional
+  bio: Holistic mama, herbal tea lover, and homeschooling soul.
   location: North Carolina
+  twitter: holisticmamalife
   links:
+    - title: Instagram
+      url: https://instagram.com/holistic.mama.living
+      icon: fab fa-instagram
     - title: Pinterest
       url: https://pinterest.com/holisticmamaliving
       icon: fab fa-pinterest
@@ -122,11 +94,10 @@ navigation:
     url: /sustainable-living/
   - title: Homeschooling & Rhythms
     url: /homeschooling/
-  - title: Birth & Postpartum
-    url: /birth-postpartum/
+  - title: Fertility, Birth & Postpartum
+    url: /fertility-postpartum/
 
-
-# Footer Links
+# Footer links (icons optional)
 footer_links:
   - title: Feed
     url: atom.xml
