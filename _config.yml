@@ -4,7 +4,7 @@ locale: en-US
 title: "Holistic Mama Living"
 description: "A cozy space for mindful mamas embracing natural parenting, holistic wellness, and sustainable living."
 baseurl: "" # leave empty unless you're using a subpath
-url: "https://yourusername.github.io" # replace with your GitHub username if needed
+url: "https://rebecca-ro.github/HolisticMamaLiving" # replace with your GitHub username if needed
 logo: "/assets/images/logo.png" # optional, update when you add a logo
 date_format: "%B %-d, %Y"
 read_time: true
